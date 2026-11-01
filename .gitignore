@@ -1,0 +1,22 @@
+# deps
+/node_modules
+
+# next
+/.next
+/out
+next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.env*
+
+# poisoned-config artifacts
+/.next-personal
+
+# qa artifacts
+qa/dev.log
+qa/build.log
+*.tmp.*
